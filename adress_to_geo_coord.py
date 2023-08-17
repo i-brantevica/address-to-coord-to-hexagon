@@ -5,8 +5,8 @@ import os
 import h3
 
 dir = os.getcwd()
-file = dir + '/data/example_data.csv'
-coord_file = dir + '/data/example_data-coord-hex.csv'
+file = dir + '/example_data.csv'
+coord_file = dir + '/example_data-coord-hex.csv'
 
 df = pd.read_csv(file,encoding='utf-8', sep = ";")
 
